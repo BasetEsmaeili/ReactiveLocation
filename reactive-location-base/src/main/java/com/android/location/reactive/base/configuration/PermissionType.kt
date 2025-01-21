@@ -1,4 +1,4 @@
-package com.android.location.reactive.base
+package com.android.location.reactive.base.configuration
 
 enum class PermissionType {
     ACCESS_FINE_LOCATION,

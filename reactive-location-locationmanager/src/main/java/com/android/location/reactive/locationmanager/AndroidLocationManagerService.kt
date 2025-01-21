@@ -3,9 +3,9 @@ package com.android.location.reactive.locationmanager
 import android.content.Context
 import android.location.Location
 import androidx.core.content.ContextCompat
-import com.android.location.reactive.base.LocationEnableRequestResult
-import com.android.location.reactive.base.LocationEvent
-import com.android.location.reactive.base.LocationResolveResult
+import com.android.location.reactive.base.result.LocationEnableRequestResult
+import com.android.location.reactive.base.result.LocationEvent
+import com.android.location.reactive.base.result.LocationResolveResult
 import com.android.location.reactive.base.LocationService
 import com.android.location.reactive.core.lazyFast
 import kotlinx.coroutines.flow.Flow

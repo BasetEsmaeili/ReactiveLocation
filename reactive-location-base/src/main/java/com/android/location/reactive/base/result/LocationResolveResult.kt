@@ -1,4 +1,4 @@
-package com.android.location.reactive.base
+package com.android.location.reactive.base.result
 
 import androidx.activity.result.IntentSenderRequest
 
