@@ -20,7 +20,7 @@ dependencyResolutionManagement {
 }
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "ReactiveLocation"
-include(":app")
+include(":sample")
 include(":reactive-location-base")
 include(":reactive-location-locationmanager")
 include(":reactive-location-core")

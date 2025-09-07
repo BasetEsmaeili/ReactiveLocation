@@ -1,4 +1,4 @@
-package com.android.location.reactive.base.result
+package com.android.location.reactive.base.data
 
 import android.location.Location
 
