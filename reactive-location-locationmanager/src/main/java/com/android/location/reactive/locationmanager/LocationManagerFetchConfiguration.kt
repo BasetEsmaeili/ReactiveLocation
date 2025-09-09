@@ -44,12 +44,12 @@ data class LocationManagerFetchConfiguration(
     val intervalMillis: Long = PASSIVE_INTERVAL,
     val quality: LocationQuality = LocationQuality.BALANCED_POWER_ACCURACY,
     val durationMillis: Long = Long.MAX_VALUE,
-    @IntRange(0, Int.MAX_VALUE.toLong())
+    @field:IntRange(0, Int.MAX_VALUE.toLong())
     val maxUpdates: Int = Int.MAX_VALUE,
     private val mMinUpdateIntervalMillis: Long = IMPLICIT_MIN_UPDATE_INTERVAL,
-    @FloatRange(0.0, Float.MAX_VALUE.toDouble())
+    @field:FloatRange(0.0, Float.MAX_VALUE.toDouble())
     val minUpdateDistanceMeters: Float = 0f,
-    @IntRange(0, Long.MAX_VALUE)
+    @field:IntRange(0, Long.MAX_VALUE)
     val maxUpdateDelayMillis: Long = 0
 ) : FetchConfiguration {
 
